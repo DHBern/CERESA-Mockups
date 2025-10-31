@@ -44,7 +44,7 @@
 	al proprio presente che considerava se non squallido però del tutto<br />
 	insoddisfacente.<br data-type="lf" />
 </p>
-<blockContent data-label="Inserted text">
+<blockContent data-label="Paragrafo riposizionato">
 	Intraprendeva perciò, e tutte quante sgranate lungo l’arco di una<br />
 	giornata, varie e diverse carriere, alle quali separatamente si dedi<hyphen /><br />cava con
 	trasporto e ampie immagi’<hand>n</hand>azioni proiettate in un favoloso<br />

@@ -13,7 +13,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<nav class="flex flex-wrap gap-10 font-bold">
+<nav class="fixed top-5 left-5 flex flex-wrap gap-x-10 font-bold">
 	<a href={`${base}/eloisa1`}>Eloisa frammento 1</a>
 	<a href={`${base}/eloisa2`}>Eloisa frammento 2</a>
 	<a href={`${base}/poesie`}>Poesie</a>
@@ -27,10 +27,10 @@
 	onclick={() => {
 		fassung = fassung == 'DF' ? 'LF' : 'DF';
 	}}
-	class={['fixed top-10 left-0 rounded-xl p-2 px-5', fassung ? 'bg-red-200 font-bold' : '']}
+	class={['font-bold pointer fixed top-30 left-20 rounded-xl p-2 px-5', fassung=='DF' ? 'bg-red-200' : 'bg-blue-200']}
 	>{fassung == 'DF' ? 'change to LF' : 'change to DF'}</button
 >
 
-<div data-fassung={fassung} class="m-20">
+<div data-fassung={fassung} class="max-w-250 mx-auto mt-50">
 	{@render children()}
 </div>
