@@ -1,78 +1,158 @@
 /* 
 
-<insSup>⌜[^⌝</insSup>]*⌝
-<insOver>[^</insOver>]*⌟ 
+<insAbove>⌜[^⌝</insAbove>]*⌝
+<insInline>[^</insInline>]*⌟ 
 
 */
 
 @import 'tailwindcss';
 
-
 @import '@skeletonlabs/skeleton';
 @import '@skeletonlabs/skeleton-svelte';
 @import '@skeletonlabs/skeleton/themes/catppuccin';
 
+p {
+	@apply my-5;
+}
 
-	p {
-		@apply my-5;
+insEditorial::before {
+	content: '[';
+}
+insEditorial::after {
+	content: ']';
+}
+uncertain::before {
+	content: '[';
+}
+uncertain::after {
+	content: ']';
+}
+illegible::before {
+	content: '[';
+}
+illegible::after {
+	content: ']';
+}
+
+
+[data-fassung='LF'] {
+	strikeH,
+	strikeT,
+	br:not([data-type='lf']),
+	hyphen,
+	replBelow old,
+	replAbove old,
+	replInline old,
+	replMargin old,
+	replOver old {
+		@apply hidden;
+	}
+}
+
+[data-fassung='DF'] {
+	movedBlock::before {
+		@apply absolute -top-2 -left-2 bg-sky-100 px-2 py-1 font-bold text-black content-[attr(data-label)] text-xs;
 	}
 
-	[data-fassung='LF'] {
-		insOver,
-		insSup,
-		strike,
-		br:not([data-type='lf']),
-		hyphen {
-			@apply hidden;
-		}
+	movedBlock {
+		@apply relative block border-2 border-sky-600 p-4 pt-6;
 	}
 
-	[data-fassung='DF'] {
-		blockContent::before {
-			@apply absolute -top-2 -left-2 bg-sky-100 px-2 py-1 font-bold text-black content-[attr(data-label)];
-		}
-
-		blockContent {
-			@apply relative block border-2 border-sky-600 p-4 pt-7;
-		}
-
-		hand,
-		handFree,
-		insOver,
-		insSup,
-		hand {
-			@apply text-blue-500 italic;
-		}
-
-		insSup {
-			@apply text-xs;
-			vertical-align: super;
-		}
-		strike insSup {
-			@apply line-through;
-		}
-		insOver::before {
-			content: '⌜';
-		}
-		insOver::after {
-			content: '⌟';
-		}
-		insSup::before {
-			content: '⌜';
-		}
-		insSup::after {
-			content: '⌝';
-		}
-		hand::before {
-			content: '{';
-		}
-		hand::after {
-			content: '}';
-		}
-		unclear::before {
-			content: '[';
-		}
-		unclear::after {
-			content: ']';
-		}
+	hand,
+	handFree,
+	insInline,
+	insAbove,
+	insBelow,
+	replInline[data-hand] new,
+	replAbove[data-hand] new,
+	replBelow[data-hand] new,
+	replOver[data-hand] new {
+		@apply text-blue-500 italic;
 	}
+
+	insAbove,
+	replAbove new {
+		@apply text-xs;
+		vertical-align: super;
+	}
+	insBelow,
+	replBelow new {
+		@apply text-xs;
+		vertical-align: sub;
+	}
+	insMargin,
+	replMargin new {
+		@apply text-green-500 italic;
+	}
+
+	/* Strikes */
+	strikeH,
+	strikeT,
+	strikeH insAbove,
+	strikeT insAbove {
+		@apply line-through decoration-[10%];
+	}
+	strikeH {
+		@apply decoration-blue-500;
+	}
+
+	/* Replacements */
+	replInline old,
+	replAbove old,
+	replBelow old,
+	replOver old,
+	replMargin old {
+		@apply line-through decoration-[10%];
+	}
+
+	/* Insertions and Replacements */
+	insMargin::before,
+	replMargin new::before {
+		content: '<';
+	}
+	insMargin::after,
+	replMargin new::after {
+		content: '>';
+	}
+	insInline::before,
+	replInline new::before {
+		content: '⌜';
+	}
+	insInline::after,
+	replInline new::after {
+		content: '⌟';
+	}
+	insAbove::before,
+	replAbove new::before {
+		content: '⌜';
+	}
+	insAbove::after,
+	replAbove new::after {
+		content: '⌝';
+	}
+	insBelow::before,
+	replBelow new::before {
+		content: '⌞';
+	}
+	insBelow::after,
+	replBelow new::after {
+		content: '⌟';
+	}
+
+	hand::before,
+	replOver new::before {
+		content: '{';
+	}
+	hand::after,
+	replOver new::after {
+		content: '}';
+	}
+
+	/* Editorial */
+	unclear::before {
+		content: '[';
+	}
+	unclear::after {
+		content: ']';
+	}
+}
