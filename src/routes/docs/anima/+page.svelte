@@ -34,10 +34,12 @@
 	umane, dalla riproduzione della specie alla guerra, nonché a<br />
 	quelle più squisitamente sociali, dalla politica ai tribunali,<br />
 	senza che le sia concesso dire bah.<br />
-	<br />
+	<br data-type="lf" />
+	<br data-type="lf" />
 	L’anima infatti, essendo immateriale, non può <strikeT>nemmeno mordere.</strikeT><br />
 	parlare e neanche <strikeT>mordere</strikeT> е tanto meno mordere.<br />
-	<br />
+	<br data-type="lf" />
+	<br data-type="lf" />
 	<strikeH>
 		Anche le donne hanno evidentemente dovuto vivere per millenni<br />
 		senza l’ANIMa, essendo questa <movedBlockRef data-ref="1" /> stata
