@@ -1,5 +1,5 @@
 <script>
-	let fassung = $state('LF');
+	let fassung = $state('DF');
 	let { children } = $props();
 </script>
 

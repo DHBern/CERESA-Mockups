@@ -1,44 +1,41 @@
-/* 
-
-<insAbove>⌜[^⌝</insAbove>]*⌝
-<insInline>[^</insInline>]*⌟ 
-
-*/
-
 @import 'tailwindcss';
 
 @import '@skeletonlabs/skeleton';
 @import '@skeletonlabs/skeleton-svelte';
 @import '@skeletonlabs/skeleton/themes/catppuccin';
+/* Conversions::after
+	- replace lb with br
+	- replace 
 
+*/
 a[data-crossref]::before {
-	@apply bg-amber-100 rounded-xl px-2 font-bold cursor-pointer;
-	content: '↗'
+	@apply cursor-pointer rounded-xl bg-amber-100 px-2 font-bold;
+	content: '↗';
 }
-a[data-publisher]::before {
-	@apply bg-orange-100 rounded-xl px-2 font-bold cursor-pointer;
-	content: '↗'
+a[type=publisher]::before {
+	@apply cursor-pointer rounded-xl bg-orange-100 px-2 font-bold;
+	content: '↗';
 }
-a[data-publisher] {
+a[type=publisher] {
 	@apply text-orange-300;
 }
-a[data-person]::before {
-	@apply bg-red-100 rounded-xl px-2 font-bold cursor-pointer;
-	content: '↗'
+a[type=person]::before {
+	@apply cursor-pointer rounded-xl bg-red-100 px-2 font-bold;
+	content: '↗';
 }
-a[data-person] {
-	@apply underline decoration-red-100 decoration-[18%] pr-2;
+a[type=person] {
+	@apply pr-2 underline decoration-red-100 decoration-[18%];
 }
-a[data-place]::before {
-	@apply bg-sky-100 rounded-xl px-2 font-bold cursor-pointer;
-	content: '↗'
+a[type=place]::before {
+	@apply cursor-pointer rounded-xl bg-sky-100 px-2 font-bold;
+	content: '↗';
 }
-a[data-work] {
-	@apply rounded-xl border-green-500  border pr-2;
+a[type=work] {
+	@apply rounded-xl border border-green-500 pr-2;
 }
-a[data-work]::before {
-	@apply bg-green-100 rounded-tl-xl rounded-bl-xl px-2 font-bold cursor-pointer;
-	content: '↗'
+a[type=work]::before {
+	@apply cursor-pointer rounded-tl-xl rounded-bl-xl bg-green-100 px-2 font-bold;
+	content: '↗';
 }
 
 h1 {
@@ -62,12 +59,13 @@ insEditorial:hover:after {
 	content: '] Editorial insertion';
 } */
 
-uncertain::before {
+unclear::before {
 	content: '[';
 }
-uncertain::after {
+unclear::after {
 	content: ']';
 }
+
 illegible::before {
 	content: '[';
 }
@@ -75,134 +73,154 @@ illegible::after {
 	content: ']';
 }
 
-
 [data-fassung='LF'] {
-	strikeH,
-	strikeT,
-	br:not([data-type='lf']),
+	delete,
+	choice orig,
+	br:not([break='no']),
 	hyphen,
-	replBelow old,
-	replAbove old,
-	replInline old,
-	replMargin old,
-	replOver old {
+	subst delete,
+	substMargin delete {
 		@apply hidden;
 	}
 }
 
 [data-fassung='DF'] {
 	movedBlock::before {
-		@apply absolute -top-0 -left-2 bg-sky-100 px-2 py-[1px] font-bold text-black text-xs text-nowrap;
-		content: '(' attr(data-ref) ')';
+		@apply absolute -top-2 -left-2 rounded-full bg-sky-100 px-2 py-[1px] text-xs font-bold text-nowrap text-black;
+		content: attr(data-ref);
 	}
 	movedBlock:hover::before {
-		@apply absolute -top-0 -left-2 bg-sky-100 px-2 py-[1px] font-bold text-black text-xs text-nowrap;
+		@apply absolute -top-2 -left-2 bg-sky-100 px-2 py-[1px] text-xs font-bold text-nowrap text-black;
 		content: attr(data-label) ' (' attr(data-ref) ')';
 	}
-	
+
 	movedBlock {
 		@apply relative inline-block border-2 border-sky-600 p-1 pt-6;
 	}
-	
+
 	movedBlockRef::after {
-		@apply inline-block bg-sky-100 rounded-full font-bold text-black content-[attr(data-ref)] text-xs;
+		@apply inline-block h-6 w-6 items-center rounded-full bg-sky-100 pt-1 text-center text-xs font-bold text-black content-[attr(data-ref)];
 	}
 
-	hand,
-	handFree,
-	insAbove,
-	insBelow,
-	insInline,
-	replInline[data-hand] new,
-	replAbove[data-hand] new,
-	replBelow[data-hand] new,
-	replOver[data-hand] new {
+	/* ---------------------------- */
+	/* Typwriter vs Hand */
+	/* ---------------------------- */
+	/* Default style (= hand) */
+	add,
+	insert {
+		@apply **:text-blue-500 **:italic text-blue-500 italic;
+	}
+
+	/* typewriter style */
+	add[type='typewriter'],
+	insert[type='typewriter'],
+	subst[type='typewriter'] add,
+	delete[type='typewriter'] {
+		@apply text-black decoration-black ;
+	}
+
+	/* hand style */
+	add[type='hand'],
+	insert[type='hand'],
+	subst[type='hand'] add,
+	add add[type='hand'] {
 		@apply text-blue-500 italic;
 	}
 
-	insAbove,
-	replAbove new {
+	subst add {
+		@apply  text-blue-500 italic;
+	}
+	reg > add {
+		@apply text-red-300 not-italic;
+	}
+	substMargin:not([type=hand]) > add {
+		@apply text-black not-italic;
+	}
+
+	insert[place='above'],
+	subst add[place='above'] {
 		@apply text-xs;
 		vertical-align: super;
 	}
-	insBelow,
-	replBelow new {
+	insert[place='below'],
+	subst add[place='below'] {
 		@apply text-xs;
 		vertical-align: sub;
 	}
-	insMargin,
-	replMargin new {
-		@apply text-green-500 italic;
+	insMargin[type=hand],
+	substMargin[type=hand] add {
+		@apply italic text-blue-500;
 	}
 
-	/* Strikes */
-	strikeH,
-	strikeT,
-	strikeH insAbove,
-	strikeT insAbove {
-		@apply line-through decoration-[10%];
-	}
-	strikeH {
-		@apply decoration-blue-500;
+	/* Strikethroughs */
+	delete {
+		@apply line-through decoration-blue-500 decoration-[10%];
 	}
 
 	/* Replacements */
-	replInline old,
-	replAbove old,
-	replBelow old,
-	replOver old,
-	replMargin old {
+	subst delete,
+	substMargin delete {
 		@apply line-through decoration-[10%];
 	}
 
 	/* Insertions and Replacements */
 	insMargin::before,
-	replMargin new::before {
+	substMargin add::before {
 		content: '<';
 	}
 	insMargin::after,
-	replMargin new::after {
+	substMargin add::after {
 		content: '>';
 	}
-	insInline::before,
-	replInline new::before {
+	insert[place='inline']::before,
+	subst add[place='inline']::before {
 		content: '⌜';
 	}
-	insInline::after,
-	replInline new::after {
+	insert[place='inline']::after,
+	subst add[place='inline']::after {
 		content: '⌟';
 	}
-	insAbove::before,
-	replAbove new::before {
+	insert[place='above']::before,
+	subst add[place='above']::before {
 		content: '⌜';
 	}
-	insAbove::after,
-	replAbove new::after {
+	insert[place='above']::after,
+	subst add[place='above']::after {
 		content: '⌝';
 	}
-	insBelow::before,
-	replBelow new::before {
+	insert[place='below']::before,
+	subst add[place='below']::before {
 		content: '⌞';
 	}
-	insBelow::after,
-	replBelow new::after {
+	insert[place='below']::after,
+	subst add[place='below']::after {
 		content: '⌟';
 	}
 
-	hand::before,
-	replOver new::before {
+	add::before,
+	subst add[place='over']::before {
 		content: '{';
 	}
-	hand::after,
-	replOver new::after {
+	add::after,
+	subst add[place='over']::after {
 		content: '}';
 	}
 
+	/* --------------------------- */
 	/* Editorial */
-	unclear::before {
-		content: '[';
+	/* --------------------------- */
+	choice {
+		orig {
+			@apply line-through decoration-red-300 decoration-[10%];
+		}
+		reg {
+			@apply text-red-300;
+		}
 	}
-	unclear::after {
-		content: ']';
+	insEditorial,
+	unclear, 
+	illegible {
+		@apply text-red-300;
 	}
+	
 }
