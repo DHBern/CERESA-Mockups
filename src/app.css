@@ -51,13 +51,6 @@ insEditorial::before {
 insEditorial::after {
 	content: ']';
 }
-/* insEditorial {
-	@apply relative;
-}
-insEditorial:hover:after {
-	@apply absolute bg-sky-100 py-[1px] text-black text-nowrap;
-	content: '] Editorial insertion';
-} */
 
 illegible::before {
 	content: '[';

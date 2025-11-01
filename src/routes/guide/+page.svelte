@@ -46,7 +46,11 @@
 			<tr>
 				<th data-fassung="DF">Ali<insMargin type="hand">c</insMargin>e Ceresa</th>
 				<th data-fassung="LF">Ali<insMargin type="hand">c</insMargin>e Ceresa</th>
-				<th><strike>Insertion in the margin by hand</strike></th></tr
+				<th
+					>Insertion in the margin by hand<br /><strong
+						><em>Note: We may actually not need this!</em></strong
+					></th
+				></tr
 			>
 			<!-- Typewriter -->
 			<tr>
@@ -68,7 +72,11 @@
 			<tr>
 				<th data-fassung="DF">Ali<insMargin>c</insMargin>e Ceresa</th>
 				<th data-fassung="LF">Ali<insMargin>c</insMargin>e Ceresa</th>
-				<th>Insertion in the margin with the typewriter</th></tr
+				<th
+					>Insertion in the margin with the typewriter<br /><strong
+						><em>Note: We may actually not need this!</em></strong
+					></th
+				></tr
 			>
 
 			<!-- DELETIONS -->
@@ -130,7 +138,11 @@
 				<th data-fassung="LF"
 					><substMargin type="hand"><delete>Alice</delete> <add>Ceresa</add></substMargin></th
 				>
-				<th>«Ceresa» replaces «Alice» in the margin by hand</th></tr
+				<th
+					>«Ceresa» replaces «Alice» in the margin by hand<br /><strong
+						><em>Note: We may actually not need this!</em></strong
+					></th
+				></tr
 			>
 			<!-- Typewriter -->
 			<tr>
@@ -184,7 +196,11 @@
 				<th data-fassung="LF"
 					><substMargin type="typewriter"><delete>Alice</delete> <add>Ceresa</add></substMargin></th
 				>
-				<th>«Ceresa» replaces «Alice» in the margin with the typewriter</th></tr
+				<th
+					>«Ceresa» replaces «Alice» in the margin with the typewriter<br /><strong
+						><em>Note: We may actually not need them!</em></strong
+					></th
+				></tr
 			>
 
 			<!-- Repositioning -->
@@ -234,7 +250,11 @@
 
 				<!-- Editorial Interventions -->
 			</tr><tr><th><h3 class="mt-2 h5">Editorial Interventions</h3></th></tr>
-
+			<tr>
+				<th data-fassung="DF">Alice Ceres<insEditorial>a</insEditorial></th>
+				<th data-fassung="LF">Alice Ceres<insEditorial>a</insEditorial></th>
+				<th>Editorial insertion</th></tr
+			>
 			<tr>
 				<th data-fassung="DF"
 					>Alice Ceres<choice><orig>A</orig><reg><add>a</add></reg></choice>
@@ -258,12 +278,6 @@
 					</choice>
 				</th>
 				<th>Editorial choice <strong><em>(full word)</em></strong></th></tr
-			>
-
-			<tr>
-				<th data-fassung="DF">Alice Ceres<insEditorial>a</insEditorial></th>
-				<th data-fassung="LF">Alice Ceres<insEditorial>a</insEditorial></th>
-				<th>Editorial insertion</th></tr
 			>
 			<tr>
 				<th data-fassung="DF">Ali<unclear>ce Ceresa</unclear></th>
