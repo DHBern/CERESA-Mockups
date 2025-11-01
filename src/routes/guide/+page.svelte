@@ -215,7 +215,7 @@
 					><movedBlockRef data-ref="1" />Alice
 					<movedBlock data-ref="1" data-label="Paragrafo riposizionato">Ceresa</movedBlock></th
 				>
-				<th>Repositioned paragraph</th>
+				<th>Repositioned paragraph<br /><strong><em>Hover it with your mouse!</em></strong></th>
 			</tr>
 
 			<tr>
@@ -227,7 +227,7 @@
 					><movedBlockRef data-ref="2" />Alice
 					<movedBlock data-ref="2" data-label="Parola riposizionato">Ceresa</movedBlock></th
 				>
-				<th>Repositioned word</th>
+				<th>Repositioned word<br /><strong><em>Hover it with your mouse!</em></strong></th>
 			</tr>
 
 			<tr><th><h3 class="mt-2 h5">Variants</h3></th></tr>
