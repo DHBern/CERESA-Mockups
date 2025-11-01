@@ -227,7 +227,7 @@
 				<th
 					>An alternative way of writing «Alice Ceresa» is «Alice».<br />
 					<strong
-						><em>Note, that it's not clear yet what part of the text the alternative refers to!</em
+						><em>Note: It's not clear yet what part of the text the alternative refers to!</em
 						></strong
 					></th
 				>
@@ -237,33 +237,27 @@
 
 			<tr>
 				<th data-fassung="DF"
-					>Alice <choice>
-						<orig>ceresA</orig>
-						<reg>Ceresa</reg>
-					</choice>
+					>Alice Ceres<choice><orig>A</orig><reg><add>a</add></reg></choice>
 				</th>
 				<th data-fassung="LF"
-					>Alice <choice>
-						<orig>ceresA</orig>
-						<reg>Ceresa</reg>
-					</choice>
+					>Alice Ceres<choice><orig>A</orig><reg><add>a</add></reg> </choice>
 				</th>
-				<th>Editorial choice</th></tr
+				<th>Editorial choice <strong><em>(part of word)</em></strong></th></tr
 			>
 			<tr>
 				<th data-fassung="DF"
 					>Alice <choice>
-						<orig>cersa</orig>
-						<reg>Cer<add resp="editors">e</add>sa</reg>
+						<orig>ceresA</orig>
+						<reg><add>Ceresa</add></reg>
 					</choice>
 				</th>
 				<th data-fassung="LF"
 					>Alice <choice>
-						<orig>cersa</orig>
-						<reg>Cer<add resp="editors">e</add>sa</reg>
+						<orig>ceresA</orig>
+						<reg><add>Ceresa</add></reg>
 					</choice>
 				</th>
-				<th>Editorial choice with insertion</th></tr
+				<th>Editorial choice <strong><em>(full word)</em></strong></th></tr
 			>
 
 			<tr>
@@ -276,7 +270,13 @@
 				<th data-fassung="LF">Ali<unclear>ce Ceresa</unclear></th>
 				<th
 					>Uncertain reading. The parantheses show, what part is uncertain. <br />
-					<strong><em>Note, that this can be just a few letters or multiple words!</em></strong></th
+					<strong
+						><em
+							>Note: This can be just a few letters or multiple words!<br />
+							Also: In LF it won't be clear what the [?] refers to.<br />
+							Also: If only the first part of a word is unclear, shall [?] go inside the word?
+						</em></strong
+					></th
 				></tr
 			>
 			<tr>
