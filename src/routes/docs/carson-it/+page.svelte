@@ -29,23 +29,23 @@
 			può fare a meno di riconoscervi una certa verità. In effetti, tutti e tre i romanzi sopra
 			citati si distinguono per il loro andamento spietatamente oggettivo e freddamente costruito; e
 			forse è questo che conferisce loro quell’apparenza di crudeltà, perché sarebbe inutile
-			cercarla nella scelta e nel trattamento delete “contenuto”. Cocteau una volta disse: “Lo stile
-			è l’andatura dello scritto”; secondo questo principio, si potrebbe dire che lo stile di Carson
+			cercarla nella scelta e nel trattamento del “contenuto”. Cocteau una volta disse: “Lo stile è
+			l’andatura dello scritto”; secondo questo principio, si potrebbe dire che lo stile di Carson
 			McCullers è crudele. E con questo il tema della crudeltà sarebbe esaurito, così come il tema
 			“Faulkner” in relazione alle opere di McCullers. Tutti e tre i romanzi trattano infatti un
 			unico tema, sempre elaborato in modo diverso ma riconoscibile: il vagabondaggio, l’impulso
-			inquieto e solitario delete cuore umano. Come dice in modo sconvolgente il titolo dell’opera
-			prima: “il cuore è un cacciatore solitario”. Così i personaggi delete romanzo seguono quei
+			inquieto e solitario del cuore umano. Come dice in modo sconvolgente il titolo dell’opera
+			prima: “il cuore è un cacciatore solitario”. Così i personaggi del romanzo seguono quei
 			sentieri sotterranei, e le loro parole e le loro azioni non ne sono che il riflesso visibile
 			nella vita quotidiana. Mick, la giovane ragazza non ancora adulta, nelle lunghe sere d’estate
 			si aggira furtivamente lungo quelle case dalle cui finestre sente la musica, alla ricerca di
 			una melodia in cui poter ritrovare se stessa e l’espressione dell’innominabile che la
-			tormenta. Il ragazzo pallido e sordomuto, che è il vero protagonista delete libro, si perde
+			tormenta. Il ragazzo pallido e sordomuto, che è il vero protagonista del libro, si perde
 			completamente nelle spiegazioni, movimenti delle sue mani, che ricomincia ancora e ancora,
-			senza mai poter sapere se l’altro lo capisce, davanti agli occhi assenti delete suo amico,
-			anch’egli sordomuto. E tutti gli altri, i tanti personaggi multicolori delete libro, gli
-			stanno intorno e gli parlano, a lui che non può rispondere, di ciò che riempie il loro cuore e
-			la loro solitudine. È sconvolgente pensare che una ragazza di ventidue anni abbia potuto
+			senza mai poter sapere se l’altro lo capisce, davanti agli occhi assenti del suo amico,
+			anch’egli sordomuto. E tutti gli altri, i tanti personaggi multicolori del libro, gli stanno
+			intorno e gli parlano, a lui che non può rispondere, di ciò che riempie il loro cuore e la
+			loro solitudine. È sconvolgente pensare che una ragazza di ventidue anni abbia potuto
 			inventare questa storia di miseria umana e profonda solitudine. La giovane letteratura
 			americana sembrerebbe quindi scaturire da problemi diversi, più vicini a ciascuno di noi,
 			rispetto a quelli della generazione precedente.
@@ -70,7 +70,7 @@
 			intensamente di quella di ieri.
 		</p>
 		<p>
-			E forse il lettore svizzero sarà commosso dal fatto che l’edizione originale delete volume
+			E forse il lettore svizzero sarà commosso dal fatto che l’edizione originale del volume
 			Reflections in a Golden Eye reca la dedica “To Annemarie Clarac-Schwarzenbach”.
 		</p>
 	</div>

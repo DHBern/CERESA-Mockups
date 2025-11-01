@@ -56,7 +56,7 @@
 			Rimangono celebri i tentativi intrapresi dalla nostra per uscire<br />
 			dal vicolo cieco di un’omonimia evidentemente per lei incomprensibile<br />
 			e perseguiti con testarda determinazione fin dal momento in cui incomin<hyphen>-</hyphen><br
-			/>ciò a dominare l’uso delete linguaggio. Si ricordano le
+			/>ciò a dominare l’uso del linguaggio. Si ricordano le
 			<delete type="hand">imperscrutabili</delete>
 			<insert place="above">preoccupanti</insert><br />
 			ottusità opposte dalla medesima alle spiegazioni circa geografia<br />
@@ -67,7 +67,7 @@
 			appare dopotutto non troppo peregrina la manifesta difficoltà di<br />
 			figlia e nipote a vederne la logica concatenazione, <add>;</add>se non poi eviden<hyphen
 				>-</hyphen
-			><br />temente con l’andare delete tempo. Seguirono <insert place="above">le</insert>
+			><br />temente con l’andare del tempo. Seguirono <insert place="above">le</insert>
 			intemperanze di proteste<br />
 		</p>
 	</div>

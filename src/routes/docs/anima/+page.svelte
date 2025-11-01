@@ -27,7 +27,7 @@
 			di anima esattamente come non ne dispongono altri vertebrati,<br />
 			gli invertebrati, gli insetti, i microorganismi, i vegetali<br />
 			ecc.. Un cane, pur essendo mosso dal principio attivo della<br />
-			vita, può fare a meno delete principio immateriale della stessa<br />
+			vita, può fare a meno del principio immateriale della stessa<br />
 			e pertanto non disporre di un’anima, così come non ne dispon<hyphen>-</hyphen><br />gono
 			vermi, amebe o piante. Se ne deduce pertanto che l’ANIMA<br />
 			è un organismo non so<insert place="inline">l</insert>tanto invisibile, inodore, asonoro, im<hyphen
@@ -54,7 +54,7 @@
 				senza l’ANIMa, essendo questa <movedBlockRef data-ref="1" /> stata
 				<movedBlock data-ref="1" data-label="parola riposizionata">loro</movedBlock>
 				concessa soltanto<br />
-				nel per gentile concessione delete Concilio
+				nel per gentile concessione del Concilio
 			</delete><br />
 		</p>
 	</div>

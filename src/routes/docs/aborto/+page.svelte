@@ -9,7 +9,7 @@
 	</div>
 	<div class="p-15">
 		<h1 class="h1">Aborto</h1>
-		<p>ABORTO (Liberalizzazione delete)</p>
+		<p>ABORTO (Liberalizzazione del)</p>
 		<p>
 			Attiene alla particolare prassi riproduttiva dei mammiferi la quale, <br />com’è noto,
 			discende dalla copulazione di due diversi organismi bio<hyphen>-</hyphen><br />logici, uno
@@ -25,14 +25,14 @@
 			Molti mammiferi dispongono di un naturale controllo delle nascite in <br />quanto la
 			ricettività fisiologica femminile avviene ciclicamente a <br />intervalli notevolmente
 			distanziati, e in quanto l’organismo biologi<hyphen>-</hyphen><br />co femminile esercita il
-			richiamo delete partner della copulazione sol<hyphen>-</hyphen><br />tanto nel periodo della
+			richiamo del partner della copulazione sol<hyphen>-</hyphen><br />tanto nel periodo della
 			ricettività. Nei mammiferi umani non esiste <br />invece alcun controllo naturale delle
 			nascite e richiami e ricettivi<hyphen>-</hyphen><br />tà si esercitano indiscriminatamente,
 			vale a dire sempre e ovunque. <br />Questo spiega perché debba intervenire una
 			regolamentazione artifi<hyphen>-</hyphen><br />ciale della riproduttività umana, affinché non
 			ogni copulazione ab<hyphen>-</hyphen><br />bia a determinare riproduzione provocando non
 			soltanto sgradevolezze
-			<br />varie ma anche la proliferazione incontrollata e incontrollabile delete<hyphen>-</hyphen
+			<br />varie ma anche la proliferazione incontrollata e incontrollabile del<hyphen>-</hyphen
 			><br />la specie.
 		</p>
 		<p>
@@ -41,8 +41,8 @@
 			amministrativo in quanto affidata alla legiferazione sociale. <br />Appare logicamente
 			corretto che, trovandoci nella fattispecie di
 			<br />fronte a una produzione, l’amministratività si sia esercitata sul <br />fornitore
-			effettivo delete prodotto, vale a dire sull’organismo biolo<hyphen>-</hyphen><br />gico
-			femminile, nei riguardi delete quale si è per semplicità risaliti <br />anche a monte ponendo
+			effettivo del prodotto, vale a dire sull’organismo biolo<hyphen>-</hyphen><br />gico
+			femminile, nei riguardi del quale si è per semplicità risaliti <br />anche a monte ponendo
 			limitazioni alla permissività della copulazio<hyphen>-</hyphen><br />ne femminile perlomeno
 			nella prassi, nonché discesi a valle per
 			<br />quanto appunto riguarda l’ABORTO. L’amministratività ha sempre bada<hyphen>-</hyphen><br

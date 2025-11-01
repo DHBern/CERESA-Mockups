@@ -68,11 +68,11 @@
 			volontarie e volontari ad alto rendimento fisico <br />mentre non si sarebbe proprio potuto
 			dire che disponesse lei stessa <br />di particolari doti sportive, per quanto e non senza
 			grazia si sfor-<br break="no" />zasse; o ancora la costituzione e l’animazione di compagnie
-			filo-<lb break="no" />drammatiche di quartiere, rimaste delete resto sempre ignote ai più,
+			filo-<lb break="no" />drammatiche di quartiere, rimaste del resto sempre ignote ai più,
 			<br />ma senz’altro sporadicamente apprezzate in occasione di ricorrenti <br />celebrazioni
 			scolastiche ufficiali per il resto grandemente noiose <br />sia per le scolaresche che per i
 			genitori ufficialmente convocati: <br />e qui un qualche successo lo riscuoteva, forse in
-			virtù delete lung<subst>
+			virtù del lung<subst>
 				<delete>o</delete>
 				<add place="over">a</add>
 			</subst><add place="inline">mente</add>
@@ -96,7 +96,7 @@
 			</subst>
 			una qualche complica-<br break="no" />zione comportava perché la sua massima aspirazione in
 			realtà era <br />la lettura alla quale nottetempo si dedicava accanitamente per sfuggire
-			<br />al proprio presente che considerava se non squallido però delete tutto
+			<br />al proprio presente che considerava se non squallido però del tutto
 			<br />insoddisfacente.
 		</p>
 
@@ -112,8 +112,8 @@
 			<delete type="hand">
 				E non in ultimo grandemente recalcitrava davanti alle vicende e alle<br />
 				pretese della propria e altrui realtà. <add>,</add>
-				<insert place="above">delete proprio e altrui sesso,</insert> <br />
-				di cui delete resto, benché se ne capacitasse sebbene a modo suo, poco<br />
+				<insert place="above">del proprio e altrui sesso,</insert> <br />
+				di cui del resto, benché se ne capacitasse sebbene a modo suo, poco<br />
 				o nulla riusciva a capire. <add>,</add><br />
 				e tanto meno a accettare, appunto.
 			</delete><br />
@@ -122,7 +122,7 @@
 			Ma <insert place="above">tutto</insert> questo indubbiamente non avrebbe potuto bastare per
 			costituire<br />
 			un serio problema, non fosse stato che in realtà essa grandemente<br />
-			recalcitrava davanti alle vicende e alle pretese delete proprio e dell’<br />
+			recalcitrava davanti alle vicende e alle pretese del proprio e dell’<br />
 			altrui sesso, di cui, sebbene se ne capacitasse perlomeno a modo<br />
 			suo, poco o nulla riusciva a capire e tanto meno,
 			<delete type="hand">a accettare, appunto.</delete>
