@@ -43,7 +43,7 @@
 	al proprio presente che considerava se non squallido però del tutto<br />
 	insoddisfacente.<br data-type="lf" />
 </p>
-<movedBlock data-label="Paragrafo riposizionato">
+<movedBlock data-ref="1" data-label="Paragrafo riposizionato">
 	Intraprendeva perciò, e tutte quante sgranate lungo l’arco di una<br />
 	giornata, varie e diverse carriere, alle quali separatamente si dedi<hyphen /><br />cava con
 	trasporto e ampie immagi’<hand>n</hand>azioni proiettate in un favoloso<br />
@@ -69,3 +69,4 @@
 	suo, poco o nulla riusciva a capire e tanto meno, <strikeH>a accettare, appunto.</strikeH>
 	<insInline>sembra di intendere, ad accettare.</insInline>
 </p>
+<p><movedBlockRef data-ref="1" /></p>

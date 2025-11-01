@@ -107,13 +107,14 @@
 
 		<tr>
 			<th data-fassung="DF"
-				><movedBlock data-label="Paragrafo riposizionato">Repositioned Paragraph</movedBlock></th
+				><movedBlockRef data-ref="1" />Alice
+				<movedBlock data-ref="1" data-label="Paragrafo riposizionato">Ceresa</movedBlock></th
 			>
 			<th data-fassung="LF"
-				><movedBlock data-label="Paragrafo riposizionato">Repositioned Paragraph</movedBlock></th
+				><movedBlockRef data-ref="1" />Alice
+				<movedBlock data-ref="1" data-label="Paragrafo riposizionato">Ceresa</movedBlock></th
 			>
-			<th>Repositioned Paragraph</th></tr
-		>
+		</tr>
 
 		<!-- Section -->
 		<tr><th><h3 class="mt-2 h5">Editorial Interventions</h3></th></tr>

@@ -11,6 +11,11 @@
 @import '@skeletonlabs/skeleton-svelte';
 @import '@skeletonlabs/skeleton/themes/catppuccin';
 
+a[data-crossref]::before {
+	@apply bg-amber-100 rounded-xl px-2 font-bold cursor-pointer;
+	content: '↗'
+}
+
 p {
 	@apply my-5;
 }
@@ -51,18 +56,27 @@ illegible::after {
 
 [data-fassung='DF'] {
 	movedBlock::before {
-		@apply absolute -top-2 -left-2 bg-sky-100 px-2 py-1 font-bold text-black content-[attr(data-label)] text-xs;
+		@apply absolute -top-0 -left-2 bg-sky-100 px-2 py-[1px] font-bold text-black text-xs text-nowrap;
+		content: '(' attr(data-ref) ')';
 	}
-
+	movedBlock:hover::before {
+		@apply absolute -top-0 -left-2 bg-sky-100 px-2 py-[1px] font-bold text-black text-xs text-nowrap;
+		content: attr(data-label) ' (' attr(data-ref) ')';
+	}
+	
 	movedBlock {
-		@apply relative block border-2 border-sky-600 p-4 pt-6;
+		@apply relative inline-block border-2 border-sky-600 p-1 pt-6;
+	}
+	
+	movedBlockRef::after {
+		@apply inline-block bg-sky-100 rounded-full font-bold text-black content-[attr(data-ref)] text-xs;
 	}
 
 	hand,
 	handFree,
-	insInline,
 	insAbove,
 	insBelow,
+	insInline,
 	replInline[data-hand] new,
 	replAbove[data-hand] new,
 	replBelow[data-hand] new,
