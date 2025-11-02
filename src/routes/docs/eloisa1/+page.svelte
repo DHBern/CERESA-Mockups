@@ -129,7 +129,7 @@
 			<br />
 			<movedBlockRef data-ref="1" />
 			<br />
-			<insert place="inline">sembra di intendere, ad accettare.</insert>
+			<insert type="typewriter" place="inline">sembra di intendere, ad accettare.</insert>
 		</p>
 
 		<hline />
